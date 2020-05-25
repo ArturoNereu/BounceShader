@@ -130,7 +130,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[0].inSlope
@@ -162,19 +162,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[2].time
-      value: 0.47988248
+      value: 0.44878164
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[2].value
-      value: 0.4777492
+      value: 0.80655634
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[2].inSlope
-      value: 7.5215464
+      value: 2.6728606
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[2].outSlope
-      value: 7.5215464
+      value: 2.6728606
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[2].tangentMode
@@ -182,19 +182,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[2].outWeight
-      value: 0.08711323
+      value: 0.1913495
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[3].time
-      value: 0.7422457
+      value: 0.6604339
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[3].inSlope
-      value: 4.978173
+      value: 1.2697732
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[3].outSlope
-      value: 4.978173
+      value: 1.2697732
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[3].tangentMode
@@ -206,31 +206,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[3].value
-      value: 0.13293982
+      value: 0.81558347
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[3].outWeight
-      value: 0.12710549
+      value: 0.16311453
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[4].time
-      value: 1
+      value: 0.76827794
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[4].inSlope
-      value: -0.51576173
+      value: -0.10646238
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[4].outSlope
-      value: -0.51576173
+      value: -0.10646238
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[4].tangentMode
-      value: 34
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
       propertyPath: m_AnimationCurve.m_Curve.Array.data[4].inWeight
       value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
+      propertyPath: m_AnimationCurve.m_Curve.Array.data[4].value
+      value: 0.79239315
+      objectReference: {fileID: 0}
+    - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
+      propertyPath: m_AnimationCurve.m_Curve.Array.data[4].outWeight
+      value: 0.10065774
+      objectReference: {fileID: 0}
+    - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
+      propertyPath: m_AnimationCurve.m_Curve.Array.data[5].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
+      propertyPath: m_AnimationCurve.m_Curve.Array.data[5].inSlope
+      value: -3.4195845
+      objectReference: {fileID: 0}
+    - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
+      propertyPath: m_AnimationCurve.m_Curve.Array.data[5].outSlope
+      value: -3.4195845
+      objectReference: {fileID: 0}
+    - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
+      propertyPath: m_AnimationCurve.m_Curve.Array.data[5].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
+      propertyPath: m_AnimationCurve.m_Curve.Array.data[5].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 240495382, guid: fe75444f48cade444a2f8790ea9b457c, type: 3}
+      propertyPath: m_AnimationCurve.m_PostInfinity
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6484444638738273282, guid: fe75444f48cade444a2f8790ea9b457c,
         type: 3}
@@ -240,7 +272,7 @@ PrefabInstance:
     - target: {fileID: 6484444638738273282, guid: fe75444f48cade444a2f8790ea9b457c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.99
       objectReference: {fileID: 0}
     - target: {fileID: 6484444638738273282, guid: fe75444f48cade444a2f8790ea9b457c,
         type: 3}
@@ -311,7 +343,6 @@ GameObject:
   - component: {fileID: 526968615}
   - component: {fileID: 526968614}
   - component: {fileID: 526968613}
-  - component: {fileID: 526968617}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -394,69 +425,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
---- !u!114 &526968617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526968612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7d666206d9ce98478f32a612ac79cd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AnimationCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 3.9773974
-      outSlope: 3.9773974
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.25060213
-      value: 0.9967443
-      inSlope: -0.04324322
-      outSlope: -0.04324322
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.15729564
-    - serializedVersion: 3
-      time: 0.5
-      value: 0.022514343
-      inSlope: 0.058670502
-      outSlope: 0.058670502
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.7552275
-      value: 0.61546636
-      inSlope: 6.5699844
-      outSlope: 6.5699844
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.09089683
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: -2.5144424
-      outSlope: -2.5144424
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,7 +453,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.7058824, g: 0.83137256, b: 0.8272419, a: 1}
+  m_Color: {r: 0.6960662, g: 0.84843343, b: 0.9339623, a: 1}
   m_Intensity: 1.25
   m_Range: 10
   m_SpotAngle: 30
