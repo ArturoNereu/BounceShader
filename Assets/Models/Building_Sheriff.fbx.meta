@@ -1,16 +1,16 @@
 fileFormatVersion: 2
 guid: 7dd7ebed6efbfab489cc3ddd21ea89c9
 ModelImporter:
-  serializedVersion: 25
+  serializedVersion: 19300
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Buildings
-    second: {fileID: 2100000, guid: 2ed85a5525951e145ab57bc5eb35b5ba, type: 2}
+    second: {fileID: 2100000, guid: 435cdb565c0065345b3e0e1804fb637f, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -43,6 +43,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -73,7 +74,6 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -91,8 +91,10 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

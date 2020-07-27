@@ -37,11 +37,6 @@ public class Impact : MonoBehaviour
             {
                 m_Material.SetVector(m_RaycastHitHash, raycastHit.transform.position);
             }
-            else
-            {
-                // TODO: Remove 
-                m_Material.SetVector(m_RaycastHitHash, new Vector4(1000,1000,1000,100)) ;
-            }
         }
 
         m_TimeSincePressed += Time.deltaTime;
