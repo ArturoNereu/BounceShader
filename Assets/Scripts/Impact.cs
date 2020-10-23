@@ -19,8 +19,8 @@ public class Impact : MonoBehaviour
     {
         m_MainCamera = Camera.main;
         m_Material = GetComponent<Renderer>().material;
-        m_RaycastHitHash = Shader.PropertyToID("Vector3_B0DDBEEE");
-        m_ImpactValueAtCurveHash = Shader.PropertyToID("Vector1_E44E3D54");
+        m_RaycastHitHash = Shader.PropertyToID("_HitLocation");
+        m_ImpactValueAtCurveHash = Shader.PropertyToID("_ImpctValueAtCurve");
     }
 
     // Update is called once per frame
@@ -32,10 +32,10 @@ public class Impact : MonoBehaviour
 
             Ray ray = m_MainCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit raycastHit;
-            
-            if(Physics.Raycast(ray, out raycastHit))
+
+            if (Physics.Raycast(ray, out raycastHit))
             {
-                m_Material.SetVector(m_RaycastHitHash, raycastHit.transform.position);
+                m_Material.SetVector(m_RaycastHitHash, raycastHit.point);
             }
         }
 
@@ -43,6 +43,7 @@ public class Impact : MonoBehaviour
         m_Material.SetFloat(m_ImpactValueAtCurveHash, EvaluateCurve(m_TimeSincePressed));
     }
 
+    // 
     float EvaluateCurve(float time)
     {
         return m_AnimationCurve.Evaluate(time);
