@@ -58,13 +58,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_3D90D81A: 7
+    - Vector1_6BADA729: 0.55
     - Vector1_E44E3D54: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DamageRadius: 3.5
+    - _DamageRadius: 2.25
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
